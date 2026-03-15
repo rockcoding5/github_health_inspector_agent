@@ -37,9 +37,8 @@ IMPORTANT CONTEXT:
 - Today's date is {current_date} (UTC). 
 - Use this current date to accurately determine how recently the code was updated. Do NOT hallucinate dates in the future.
 
-IMPORTANT FOOTER: Always include this exact text at the bottom of your response:
-"---"
-"Data retrieved dynamically via GitHub MCP Server."
+IMPORTANT FOOTER: Always append this exact text at the very bottom of your response, formatted as plain italic text. Do NOT use bolding or Markdown headings (like # or ##) for this footer:
+*Data retrieved dynamically via GitHub MCP Server.*
 """
 
 # Resolve absolute path to ensure container execution stability
