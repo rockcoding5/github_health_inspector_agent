@@ -117,14 +117,6 @@ adk deploy cloud_run \
 
 # Step 5: Testing Inputs
 
-## Step 5: Testing Inputs
-
-## Step 5: Testing Inputs
-
-## Step 5: Testing Inputs
-
-## Step 5: Testing Inputs
-
 | # | User Input | Expected Response (Approximate) |
 | :--- | :--- | :--- |
 | 1 | `"Hello"` | "Hello! I am the GitHub Health Inspector Agent, and I use live MCP data to evaluate open-source repositories." |
