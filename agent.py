@@ -15,7 +15,8 @@ cloud_logging_client = google.cloud.logging.Client()
 cloud_logging_client.setup_logging()
 load_dotenv()
 
-model_name = os.getenv("MODEL", "gemini-1.5-flash")
+# Updated to use gemini-2.5-flash
+model_name = os.getenv("MODEL", "gemini-2.5-flash")
 
 instructions = """
 You are the 'GitHub Health Inspector Agent'. You evaluate GitHub repositories to ensure they are safe for production use.
